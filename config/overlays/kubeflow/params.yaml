@@ -1,4 +1,7 @@
 commonLabels:
 - kind: AuthorizationPolicy
   path: spec/selector/matchLabels
+  create: false
+- kind: Policy
+  path: spec/selector/Labels
   create: true
